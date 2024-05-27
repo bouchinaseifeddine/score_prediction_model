@@ -1,0 +1,17 @@
+name: my_project
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+environment:
+  sdk: ^3.3.0
+
+# Add regular dependencies here.
+dependencies:
+  ml_dataframe: ^1.6.0
+  ml_preprocessing: ^7.0.2
+  ml_algo: ^16.17.10
+  # path: ^1.8.0
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
